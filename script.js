@@ -1,6 +1,6 @@
-var paper="./paper-hand.png"
-var rock='./rock-hand.png'
-var scissor='./scissors-hand.png'
+var paper="./assets/paper-hand.png"
+var rock='./assets/rock-hand.png'
+var scissor='./assets/scissors-hand.png'
 
 var x=document.getElementById('hand1')
 var y=document.getElementById('hand2')
