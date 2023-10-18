@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("./bg.png");
+}
+
+.head{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.box{
+    height: 350px;
+    width: 350px;
+    border: 2px solid #ffc434;
+    position: relative;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.vs{
+    height: 500px;
+}
+
+.log{
+    height: 80px;
+    width: 80px;
+    
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    
+}
+.logo img{
+    padding: 10px;
+}
+
+.playbutton{
+    height: 30px;
+    width: 140px;
+    background-color:  #ffc434; 
+    border-radius: 5px; 
+    align-items: center;
+    margin-left: 600px;
+}
+.replay{
+    visibility: hidden;
+}
+
+.result{
+    margin-bottom: 20px;
+}
