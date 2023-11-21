@@ -67,3 +67,9 @@ p{
 .result{
     margin-bottom: 20px;
 }
+.humanhand2{
+    height: 350px;
+    width: 350px;
+    border: 2px solid #ffc434;
+    position: relative; 
+}
