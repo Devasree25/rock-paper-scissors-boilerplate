@@ -7,20 +7,20 @@ body{
     background-image: url("./assets/bg.png");
 }
 
-.head{
+.score{
     color: white;
     text-align: center;
     font-size: 100px;
 }
 
-.box{
+.playerbox2{
     height: 350px;
     width: 350px;
     border: 2px solid #ffc434;
     position: relative;
 }
 
-.box1{
+.playerbox1{
     display: flex;
     justify-content: space-evenly;
 }
@@ -35,7 +35,7 @@ p{
     height: 500px;
 }
 
-.log{
+.image{
     height: 80px;
     width: 80px;
     
@@ -53,6 +53,8 @@ p{
 .playbutton{
     height: 30px;
     width: 140px;
+    position: relative;
+    left: 90px;
     background-color:  #ffc434; 
     border-radius: 5px; 
     align-items: center;

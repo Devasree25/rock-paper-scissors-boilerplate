@@ -2,9 +2,9 @@ var paper="./assets/paper-hand.png"
 var rock='./assets/rock-hand.png'
 var scissor='./assets/scissors-hand.png'
 
-var x=document.getElementById('hand1')
-var y=document.getElementById('hand2')
-var z=document.getElementById('hand3')
+var x=document.getElementById('rock')
+var y=document.getElementById('paper')
+var z=document.getElementById('scissor')
 
 var a=document.querySelector('.humanhand1')
 var b=document.querySelector('.humanhand2')
@@ -78,7 +78,7 @@ function virtualscore(){
     final()
 }
 
-var head=document.querySelector('.head')
+var head=document.querySelector('.score')
 var result=document.querySelector('.result')
 var playbutton=document.querySelector('.playbutton')
 var replay=document.querySelector('.replay')
